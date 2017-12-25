@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 info = []
-with open(r'C:\Users\Kismet\Documents\我的坚果云\my_learning\crawler_learning\1_2answer_of_homework\1_2_homework_required\index.html') as wb_data:
+with open(r'path') as wb_data:
     soup = BeautifulSoup(wb_data,'lxml')
     images = soup.select('body > div > div > div.col-md-9 > div > div > div > img')
     titles = soup.select('body > div > div > div.col-md-9 > div > div > div > div.caption > h4 > a')
